@@ -19,12 +19,11 @@
 
 **MODELO RELACIONAL**
 - **Campeón** ( id_campeon, id_usuario,nivel,ataque,armadura,vida, nombre).
-On ,id_usuario,és clau forana de Campeón.
-- **Usuario** (id_usuario, nombre_cuenta,contrasenya, id_campeon).
-On , id_campeon). és clau forana de Usuario.
+Donde ,id_usuario,és llave forana de Campeón.
+- **Usuario** (id_usuario, nombre_cuenta,contrasenya).
 - **Posee** ( id_posee, id_habilidad, id_campeón).
-On id_habilidad és clau forana de Habilidades.
-On id_campeón és clau forana de Campeón.
+Donde id_habilidad és llave forana de Habilidades.
+Donde id_campeón és llave forana de Campeón.
 - **Habilidades** ( id_habilidad,nombre,descripción,id_tipo_habilidad).
-On id_tipo_habilidad és clau forana de Habilidad.
+Donde id_tipo_habilidad és llave forana de Habilidad.
 - **Tipo_habilidad** (id_tipoDeHabilidad, tipo).
