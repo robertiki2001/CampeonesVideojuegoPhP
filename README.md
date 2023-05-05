@@ -15,6 +15,7 @@
 **Contraseña**: 123
 
 **DIAGRAMA ENTIDAD RELACIÓN**
+![Diagrama de clases](diagrama_E-R.png)
 
 **MODELO RELACIONAL**
 - **Campeón** ( id_campeon, id_usuario,nivel,ataque,armadura,vida, nombre).
